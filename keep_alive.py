@@ -40,6 +40,6 @@ def main():
 def run():
   app.run(host="0.0.0.0", port=0)
 print(cl('starting your hydroflask...', 'cyan'))
-print(cl('started at: https://hydroflask.spinfal.repl.co/' + route, 'green'))
+print(cl('started at: 0.0.0.0/' + route, 'green'))
 t.sleep(2)
 run()
