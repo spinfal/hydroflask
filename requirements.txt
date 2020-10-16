@@ -1,5 +1,6 @@
+flask-login
 Flask
 termcolor
 random_word
 requests
-time
+nose
