@@ -1,0 +1,5 @@
+Flask
+termcolor
+random_word
+requests
+time
