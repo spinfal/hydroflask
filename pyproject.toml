@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "repl_python3_pyinmyhydroflask"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "a cool, dumb, stupid, but also cool way to show a websites source html code in a flask app. did i mention it was cool??"
+authors = ["Spinfal <spinfal@atheist.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
