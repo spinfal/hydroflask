@@ -23,12 +23,12 @@ route = input('flask route location (leave blank for random): ')
 if route == "":
   route = randomSet
 elif route.isalpha() == False:
-  print(cl('your route cannot contain the character ' + route, 'magenta'))
+  print(cl('your route cannot be ' + route, 'magenta'))
   t.sleep(2)
   os.system('python3 keep_alive.py')
   
 #set flask return content
-website = input('website to grab: ')
+website = input('website to grab (without http/https): ')
 if website == "":
   print(cl('website cannot be blank', 'magenta'))
   t.sleep(2)
@@ -51,6 +51,6 @@ def index():
 def run():
   app.run(host="0.0.0.0", port=0)
 print(cl('starting your hydroflask...', 'cyan'))
-print(cl('started at: https://hydroflask.spinfal.repl.co/' + route, 'green'))
+print(cl('started at: 0.0.0.0/' + route, 'green'))
 t.sleep(2)
 run()
